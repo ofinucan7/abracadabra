@@ -1,6 +1,7 @@
 # Abracadabra - Song Recognition Algorithm
 
 ## Repo Contents
+Note: This repo does **not** contain the database file. With the list of songs in songs.json, it turns out to be ~21GB (hence why it is not present).
 - `audio_hasher.py` — audio → landmarks → hash pairs
 - `build_from_full_manifest.py` — stream full tracks and build the DB
 - `index_db.py` — SQLite schema & helpers (`songs`, `hashes`)
@@ -9,7 +10,6 @@
 - `song-test-key.txt` — Key to the songs-test-urls.txt
 - `songs-test-urls.txt` — List of URLs to test algorithm
 - `songs.json` — list of songs which I trained the algorithm on
-Note: This repo does **not** contain the database file. With the list of songs in songs.json, it turns out to be ~21GB (hence why it is not present).
 
 ## Prerequisites / Guide to Running
 - **Python** 3.9–3.12 (tested most with 3.11)
